@@ -19,7 +19,7 @@ This app uses the Cordova 'Device' & 'Geolocation' plugins.
 
 
 ### Android Quirks
-> If Geolocation service is turned off the onError callback is invoked after timeout interval (if specified). If timeout parameter is not specified then no callback is called.
+> If Geolocation service is turned off the *onError* callback is invoked after timeout interval (if specified). If timeout parameter is not specified then no callback is called.
 
 ## Objects (Read-Only)
 
