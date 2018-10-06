@@ -13,8 +13,8 @@ This app uses the Cordova 'Device' & 'Geolocation' plugins.
 * navigator.geolocation.clearWatch
 
 ### geolocationOptions
-* **enableHighAccuracy:** Provides a hint that the application needs the best possible results. By default, the device attempts to retrieve a Position using network-based methods. Setting this property to true tells the framework to use more accurate methods, such as satellite positioning. (Boolean)
-* **timeout:** The maximum length of time (milliseconds) that is allowed to pass from the call to *navigator.geolocation.getCurrentPosition* or *geolocation.watchPosition* until the corresponding geolocationSuccess callback executes. If the _geolocationSuccess_ callback is not invoked within this time, the _geolocationError_ callback is passed a *PositionError.TIMEOUT* error code. (Note that when used in conjunction with *geolocation.watchPosition*, the geolocationError callback could be called on an interval every timeout milliseconds!) (Number)
+* **enableHighAccuracy:** Provides a hint that the application needs the best possible results. By default, the device attempts to retrieve a `Position` using network-based methods. Setting this property to true tells the framework to use more accurate methods, such as satellite positioning. (Boolean)
+* **timeout:** The maximum length of time (milliseconds) that is allowed to pass from the call to *navigator.geolocation.getCurrentPosition* or *geolocation.watchPosition* until the corresponding geolocationSuccess callback executes. If the _geolocationSuccess_ callback is not invoked within this time, the _geolocationError_ callback is passed a `PositionError.TIMEOUT` error code. (Note that when used in conjunction with *geolocation.watchPosition*, the _geolocationError_ callback could be called on an interval every timeout milliseconds!) (Number)
 * **maximumAge:** Accept a cached position whose age is no greater than the specified time in milliseconds. (Number)
 
 
