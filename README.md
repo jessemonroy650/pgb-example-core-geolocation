@@ -1,10 +1,12 @@
 # pgb-example-core-geolocation
-PGB Example Core using the Cordova 'Geolocation' plugin using cli-6.0.0
+PGB Example Core using the Cordova 'Geolocation' plugin using `cli-6.0.0`
 
 This app uses the Cordova 'Device' & 'Geolocation' plugins.
 
 * https://www.npmjs.com/package/cordova-plugin-device
 * https://www.npmjs.com/package/cordova-plugin-geolocation
+
+**Reminder** make sure to turn off geolocation permission so you can test that aspect of the app.
 
 ## Methods
 
