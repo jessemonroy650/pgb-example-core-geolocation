@@ -29,17 +29,17 @@ This app uses the Cordova 'Device' & 'Geolocation' plugins.
 
 * PositionError
   * **code:** One of the predefined error codes listed below.
-    * PositionError.PERMISSION_DENIED, PositionError.POSITION_UNAVAILABLE, PositionError.TIMEOUT
+    * `PositionError.PERMISSION_DENIED`, `PositionError.POSITION_UNAVAILABLE`, `PositionError.TIMEOUT`
   * **message:** Error message describing the details of the error encountered.
 
 * Coordinates
- * **latitude:** Latitude in decimal degrees. (Number)
- * **longitude:** Longitude in decimal degrees. (Number)
- * **altitude:** Height of the position in meters above the ellipsoid. (Number)
- * **accuracy:** Accuracy level of the latitude and longitude coordinates in meters. (Number)
- * **altitudeAccuracy:** Accuracy level of the altitude coordinate in meters. (Number)
- * **heading:** Direction of travel, specified in degrees counting clockwise relative to the true north. (Number)
- * **speed:** Current ground speed of the device, specified in meters per second. (Number)
+  * **latitude:** Latitude in decimal degrees. (Number)
+  * **longitude:** Longitude in decimal degrees. (Number)
+  * **altitude:** Height of the position in meters above the ellipsoid. (Number)
+  * **accuracy:** Accuracy level of the latitude and longitude coordinates in meters. (Number)
+  * **altitudeAccuracy:** Accuracy level of the altitude coordinate in meters. (Number)
+  * **heading:** Direction of travel, specified in degrees counting clockwise relative to the true north. (Number)
+  * **speed:** Current ground speed of the device, specified in meters per second. (Number)
 
 ### Android Quirks
 > **altitudeAccuracy:** Not supported by Android devices, returning null.
