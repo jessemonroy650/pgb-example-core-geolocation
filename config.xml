@@ -6,7 +6,7 @@
         versionCode = "10" >
         <!-- versionCode is optional and Android only -->
         <!-- https://build.phonegap.com/current-support -->
-        <preference name="phonegap-version" value="cli-7.0.1" />
+        <preference name="phonegap-version" value="cli-7.1.0" />
 
         <name>PGB Example Core Geolocation</name>
         <description>PGB Example of Cordova Core plugin: 'Geolocation'</description>
