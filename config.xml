@@ -20,6 +20,6 @@
         <!-- PLUGINS PLUGINS -->
         <!-- device required so we can detect if we are using iOS -->
         <plugin name="cordova-plugin-device" spec="~2.0.2" />
-        <plugin name="cordova-plugin-geolocation" spec="2.4.3" />
+        <plugin name="cordova-plugin-geolocation" spec="3.0.0" />
 
     </widget>
