@@ -11,8 +11,8 @@ var geolocationPlugin = {
         // You can listen to 'click', but 'touchend' by passes the inherent delay.
         // See: https://www.w3schools.com/jsref/dom_obj_event.asp
         document.getElementById('getCurrentPosition').addEventListener("click", geolocationPlugin.getCurrentPosition, false);
-        document.getElementById('getCurrentPosition').addEventListener("touchend", geolocationPlugin.watchPosition, false);
-        document.getElementById('getCurrentPosition').addEventListener("touchend", geolocationPlugin.clearWatch, false);
+        document.getElementById('watchPosition').addEventListener("click", geolocationPlugin.watchPosition, false);
+        document.getElementById('clearWatch').addEventListener("click", geolocationPlugin.clearWatch, false);
     },
     //
     getCurrentPosition : function () {
