@@ -6,7 +6,7 @@
         versionCode = "10" >
         <!-- versionCode is optional and Android only -->
         <!-- https://build.phonegap.com/current-support -->
-        <preference name="phonegap-version" value="cli-6.0.0" />
+        <preference name="phonegap-version" value="cli-7.0.1" />
 
         <name>PGB Example Core Geolocation</name>
         <description>PGB Example of Cordova Core plugin: 'Geolocation'</description>
@@ -20,6 +20,6 @@
         <!-- PLUGINS PLUGINS -->
         <!-- device required so we can detect if we are using iOS -->
         <plugin name="cordova-plugin-device" spec="~2.0.2" />
-        <plugin name="cordova-plugin-geolocation" spec="3.0.0" />
+        <plugin name="cordova-plugin-geolocation" spec="~4.0.1" />
 
     </widget>
