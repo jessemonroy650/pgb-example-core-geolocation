@@ -1,12 +1,18 @@
 # pgb-example-core-geolocation
-PGB Example Core using the Cordova 'Geolocation' plugin using `cli-6.0.0`
+PGB Example Core using the Cordova 'Geolocation' plugin using `cli-7.1.0`
 
 This app uses the Cordova 'Device' & 'Geolocation' plugins.
+
+**BUG** The default build cli-6.5.0 did NOT work with the latest version (5.0.2) of the 'Splashscreen'. cli-7.1.0 was required. There are ten (10) build version available and at least six (6) plugins version that may work. I will try all sixty (60) combinations at a later time, but I fear this may be an Android forced upgrade.
 
 * https://www.npmjs.com/package/cordova-plugin-device
 * https://www.npmjs.com/package/cordova-plugin-geolocation
 
 **Reminder** make sure to turn off geolocation permission so you can test that aspect of the app.
+
+
+jcesarmobile/geolocationpgb
+
 
 ## Methods
 
